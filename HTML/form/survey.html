@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Survey Form</h1>
+
+        <label for="name">Name:</label>
+        <input id="name" type="text" name="name" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="text" name="email" placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" min="0" max="120" placeholder="enter your age">
+        <br>
+        <br>
+        <label for="option">Which option best describes your current role:</label>
+        <select id="option" >
+            <option value="" disabled selected>Select an option</option>
+            <option value="java">Java</option>
+            <option value="dsa">DSA</option>
+            <option value="python">Python</option>
+            <option value="C">C</option>
+        </select>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td>
+                    <p>How likely is that u would 
+                    freecode to the trend:</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                    <label for="trend1">Definitely</label>
+                    <input id="trend1" type="radio" name="radio">
+                    <br>
+                    <label for="trend2">Maybe</label>
+                    <input id="trend2" type="radio" name="radio">
+                    <br>
+                    <label for="trend3">Not sure</label>
+                    <input id="trend3" type="radio" name="radio">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <label for="option1">What do u like most in freecode:</label>
+        <select id="option1" >
+            <option value="" disabled selected>Select an option</option>
+            <option value="java">Java</option>
+            <option value="dsa">DSA</option>
+            <option value="python">Python</option>
+            <option value="C">C</option>
+        </select>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <td><p>Things that u should improve in future:</p></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <label for="improve1">Front-end</label>
+                    <input id="improve1" type="checkbox" name="checkbox">
+                    <br>
+                    <label for="improve2">Back-end</label>
+                    <input id="improve2" type="checkbox" name="checkbox">
+                    <br>
+                    <label for="improve3">Front-end</label>
+                    <input id="improve3" type="checkbox" name="checkbox">
+                    <br>
+                    <label for="improve4">Data visualization</label>
+                    <input id="improve4" type="checkbox" name="checkbox">
+                    <br>
+                    <label for="improve5">Full-stack</label>
+                    <input id="improve5" type="checkbox" name="checkbox">
+                    <br>
+                    <label for="improve6">Inheritance</label>
+                    <input id="improve6" type="checkbox" name="checkbox">
+                    <br>
+                    <label for="improve7">Encapsulation</label>
+                    <input id="improve7" type="checkbox" name="checkbox">
+                    <br>
+                    <label for="improve8">Polymorphism</label>
+                    <input id="improve8" type="checkbox" name="checkbox">
+                </td>
+        </tr>
+        </table>
+        <br>
+        <label for="textarea1">Additional comments:</label>
+        <br>
+        <textarea name="textarea" id="textarea1" cols="30" rows="10" placeholder="enter comments"></textarea>
+        <br>
+        <input type="submit" value="submit">
+
+        </form>
+</body>
+</html>
